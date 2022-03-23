@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>GFPAK_Bulk_Exporter</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="pkNX.Containers">
+      <HintPath>..\..\pknx\pkNX.Containers\bin\Release\net461\pkNX.Containers.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
